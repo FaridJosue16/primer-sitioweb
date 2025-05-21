@@ -1,70 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <link rel="stylesheet" href="estilos.css">
         <meta charset="utf=8"/>
         <title>primer página web</title>
         <meta name="description" content="Esta es mi primer página web"/>
         <meta name="author" content="Josue"/>
         <meta name="keywords" content="Mi primer título, mi primer página, página web"/>
+        <style>
+
+
+        </style>
     </head>
     <body>
-
-        <header>
-            <h1>Mi Blog</h1>
-        </header>
+        <div class="agrupar">
+            <header class="cabecera">
+                <h1>Mi Blog</h1>
+            </header>
         
-        <nav>
-            <ul>
-                <li>Principal</li>
-                <li>ayuda</li>
-                <li>contacto</li>
-            </ul>
-        </nav>
+            <nav class="menu">
+                <ul>
+                    <li>Principal</li>
+                    <li>ayuda</li>
+                    <li>contacto</li>
+                </ul>
+            </nav>
         
-        <section>
-            <article>
-                <hgroup>
-                    <h1>Título del primer artículo</h1>
-                    <h2>Subtítulo del primer artículo</h2>
-                </hgroup>
-                <time datetime="12-10-2018">Publicado 12-10-2018</time>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, asperiores. <small>Optio esse voluptatibus cumque</small> ipsam magni earum veritatis <span>odit soluta neque quos dicta natus</span> sint eos recusandae dolor, <cite>quisquam ratione.</cite></p>
-                <footer>
-                    <p>Comentarios (0)</p>
-                </footer>
-            </article>
-            <article>
-                <hgroup>
-                    <h1>Título del segundo artículo</h1>
-                    <h2>Subtítulo del segundo artículo</h2>
-                </hgroup>
-                <time datetime="12-10-2018">Publicado 12-10-2018</time>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatum sit illo architecto. Exercitationem commodi, aut, architecto laboriosam consectetur tempore, quaerat perferendis ab facilis dicta quasi dolorum doloribus temporibus reiciendis!</p>
-                <img src="/images/logo.jpg">
-                <footer>
-                    <p>Comentarios (0)</p>
-                </footer>
-                <address>
-                    <a href="https://www.google.com">Visita google</a>
-                </address>
-            </article>
-        </section>
+            <section class="seccion">
+                <article>
+                    <hgroup>
+                        <h1>Título del primer artículo</h1>
+                        <h2>Subtítulo del primer artículo</h2>
+                    </hgroup>
+                    <time datetime="12-10-2018">Publicado 12-10-2018</time>
+                    <img src="/images/logo.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, asperiores. <small>Optio esse voluptatibus cumque</small> ipsam magni earum veritatis <span>odit soluta neque quos dicta natus</span> sint eos recusandae dolor, <cite>quisquam ratione.</cite></p>
+                    <footer>
+                        <p>Comentarios (0)</p>
+                    </footer>
+                    <address>
+                        <a href="https://www.google.com">Visita google</a>
+                    </address>
+                </article>
+                <article>
+                    <hgroup>
+                        <h1 class="green">Título del segundo artículo</h1>
+                        <h2>Subtítulo del segundo artículo</h2>
+                    </hgroup>
+                    <time datetime="12-10-2018">Publicado 12-10-2018</time>
+                    <p class="green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatum sit illo architecto. Exercitationem commodi, aut, architecto laboriosam consectetur tempore, quaerat perferendis ab facilis dicta quasi dolorum doloribus temporibus reiciendis!</p>
+                    <footer>
+                        <p>Comentarios (10)</p>
+                    </footer>
+                </article>
+            </section>
 
-        <aside>
-            Archivo
-            <blockquote cite="https://www.faztweb.com">
-                Mensaje 1
-            </blockquote>
+            <aside class="columna">
+                <blockquote cite="https://www.faztweb.com">
+                    Mensaje 1
+                </blockquote>
 
-            <blockquote cite="https://www.facebook.com/faztweb">
-                Mensaje 2
-            </blockquote>
-            Acerca de
-        </aside>
+                <blockquote cite="https://www.facebook.com/faztweb">
+                    Mensaje 2
+                </blockquote>
+            </aside>
+            <footer class="pie">
+                Derechos reservados 2010-2018
+            </footer>
 
-        <footer>
-            Derechos reservados 2017-2025
-        </footer>
-
+        </div>
+        
     </body>
 </html>
